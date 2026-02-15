@@ -1,0 +1,139 @@
+<html>
+    <head>
+<style>
+
+body {
+    margin: 0;
+  height: 100vh;            /* full viewport height */
+  display: flex;
+  justify-content: center;  /* horizontal centering */
+  align-items: center;      /* vertical centering */
+
+  /* Brighter base color */
+  background:
+    /* Corner shadows (lighter than before) */
+    radial-gradient(circle at top left, rgba(0,0,0,0.25), transparent 60%),
+    radial-gradient(circle at top right, rgba(0,0,0,0.25), transparent 60%),
+    radial-gradient(circle at bottom left, rgba(0,0,0,0.25), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(0,0,0,0.25), transparent 60%),
+
+    /* Fabric texture */
+    radial-gradient(circle at 50% 50%, rgba(255,255,255,0.07), rgba(0,0,0,0.08)),
+    repeating-linear-gradient(
+      45deg,
+      rgba(255,255,255,0.04) 0px,
+      rgba(255,255,255,0.04) 2px,
+      rgba(0,0,0,0.02) 2px,
+      rgba(0,0,0,0.02) 4px
+    ),
+
+    /* Brighter felt green */
+    #0f7a3a;
+}
+
+
+#all-cards {
+    width: 900px;
+
+}
+.deck {
+  display: flex;
+  gap: 20px; /* spacing between cards */
+  flex-wrap: wrap; /* allows cards to move to next row if needed */
+  margin: 40px 20px;
+}
+.card {
+  position: relative;
+  width: 100px;
+  height: 140px;
+}
+
+.card .layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; /* optional */
+}
+
+</style>
+    </head>
+    <body>
+
+    <div id="all-cards">
+    <div id="cards-attack" class="deck"></div>
+    <div id="cards-defense" class="deck"></div>
+    </div>
+
+<script>
+var deck = document.getElementById("cards-attack");
+
+for(var number = 0; number <= 13; number++) {
+    var fill = "red"
+    var symbol = "sword"
+
+    if (number == 0) {
+        // fill = "back"
+        symbol = "pentagram"
+    }
+    else if (number == 7) {
+        fill = "green"
+        symbol = "shamrock"
+    }
+    else if (number == 13) {
+        fill = "purple"
+        symbol = "death"
+    }
+
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+    <img class="layer body" src="img/body.png">
+    <img class="layer fill" src="img/fill-${fill}.png">
+    <img class="layer symbol" src="img/symbol-${symbol}.png">
+    <img class="layer number" src="img/numbers-${number}.png">
+    `;
+
+    deck.appendChild(card);
+}
+
+deck = document.getElementById("cards-defense");
+
+for(var number = 0; number <= 13; number++) {
+    var fill = "blue"
+    var symbol = "shield"
+
+    if (number == 0) {
+        //fill = "back"
+        symbol = "pentagram"
+    }
+    else if (number == 7) {
+        fill = "green"
+        symbol = "shamrock"
+    }
+    else if (number == 13) {
+        fill = "purple"
+        symbol = "death"
+    }
+
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+    <img class="layer body" src="img/body.png">
+    <img class="layer fill" src="img/fill-${fill}.png">
+    <img class="layer symbol" src="img/symbol-${symbol}.png">
+    <img class="layer number" src="img/numbers-${number}.png">
+    `;
+
+    deck.appendChild(card);
+}
+
+
+
+</script>
+
+    </body>
+</html>

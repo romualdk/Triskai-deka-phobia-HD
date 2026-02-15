@@ -1,0 +1,56 @@
+## Decks
+This is a card game for two players that play against each other.
+There are two decks of cards placed face down:
+- deck 1 - attack cards.
+- deck 2 - defense cards.
+Attack cards have red background and sword symbol.
+Defense cards have blue background and shield symbol.
+
+## Special cards
+Each deck have cards with numbers from 1 to 13.
+Card with number 7 has green background and shamrock symbol (in both decks). This is a lucky card.
+Card with number 13 has Purple background and skull with bones symbol (in both decks). This a death cards.
+
+## Game board
+Game is played on a green board similar to used in casion.
+There will be only green fabric background without table features.
+
+There will be places marked for cards stacks:
+- draw cards: a place for attack and defense decks places face down at the center of the table.
+These cards will be used to draw a card by player and opponent.
+- hand cards: a place for attack cards and defense cards.
+Placed under draw cards for player and above draw cards for opponent.
+In here the players will put the cards (either attack or defense) that they draw during their turn.
+- lucky cards: a place for lucky shamrock card with number 7.
+This will be placed on the right side of the hands cards (both for player and opponent).
+If the player or opponent will draw a lucky 7 (shamrock) then he will put it in here to be able to use later during the game.
+
+## Players
+There will be player and opponent (CPU or Player)
+Main player (when played against CPU) will have his hand cards at the bottom of the game board.
+
+Both player and opponent will have defined number of HP (health points) - for example 50.
+
+## Gameplay
+Players play in turns - players starts the game.
+In each turn players can:
+- draw one card from attack deck or defense deck.
+When draw a card will be placed at player's attack or defense hand (based on from which deck it was draw)
+The total number of cards hold in a hand can't be higher than 13.
+If the total number of cards hold in hand will be higher than 13 then the whole hand will be flushed - meaning all cards will be removed from players hand and put aside.
+This rule will force player to think if he should draw another card or use the hand to attack opponent.
+This rule is separate for each hand.
+
+- attack opponent
+This can be done only if there is at least one card in the attack hand.
+When the player will attack then he will use his attack hand cards to deal a damage to opponent.
+Damage value will be calcualted as: total number of player attack hand cards - total number of opponent defense cards.
+If the total number of opponent defense cards will be higher than total number of player attack hand cards (meaning the damage value will be negative) then damage value will be uqal to zero. That means the player will not deal any damage to the opponent.
+Attacking will reduce opponent HP (health points) by the damage value.
+After performing an attack both player's attack cards and opponent's defense cards will be flushed - meaning they will be removed from player and opponent hands and put aside.
+
+Flushed cards will be put aside on the sides of the decks used to draw cards.
+When all of the cards will be drawn by players from either of the draw decks then the cards that were put aside will be shuffled and put to the deck.
+Attack and defense cards will be treated separately - meaning it is forbidden to mix attack and defense cards - they always have to be on their specific place for the cards type (attack or defense).
+
+
