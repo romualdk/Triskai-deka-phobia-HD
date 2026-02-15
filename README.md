@@ -7,7 +7,7 @@
 
 This game is a remake of my [js13k2024 Triskai-deka-phobia](https://github.com/romualdk/js13k-2024) entry.
 
-![mockup](./Design/mockup-mobile.png)
+![mockup](preview.png)
 
 
 ## ⚔️ Player Quick Reference 🛡️
