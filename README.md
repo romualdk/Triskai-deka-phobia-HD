@@ -2,6 +2,8 @@
 
 1. [Player Quick Reference](#️-player-quick-reference-️)
 2. [Game Rules](#️-game-rules-️)
+3. [High Level Analysis](#-highlevel-analysis)
+4. [Card ideas](#-card-ideas)
 
 ## *Triskai-deka-phobia HD remake*.
 
