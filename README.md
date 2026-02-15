@@ -9,21 +9,19 @@ This game is a remake of my [js13k2024 Triskai-deka-phobia](https://github.com/r
 
 ![mockup](./Design/mockup-mobile.png)
 
+
 ## ⚔️ Player Quick Reference 🛡️
 
 **Objective:** Be the last player with HP (Start: 50 HP).
 
----
 
 ### 🔄 On Your Turn (Choose 1)
 
 1. **Draw:** Take 1 card from the **Attack** or **Defense** deck.
 * *Max Hand:* 13 cards per hand. If you exceed 13, that hand is **flushed**.
 
-
 2. **Attack:** Use all your Attack cards against the opponent's Defense cards.
 
----
 
 ### 💥 Damage Calculation
 
@@ -34,7 +32,6 @@ $$\text{Total Attack Value} - \text{Total Defense Value} = \text{HP Lost}$$
 * *Note: If Defense is higher than Attack, damage is 0.*
 * *After an attack, all used Attack and Defense cards are discarded.*
 
----
 
 ### 🃏 Special Cards
 
@@ -44,24 +41,21 @@ $$\text{Total Attack Value} - \text{Total Defense Value} = \text{HP Lost}$$
 * **Without Shamrock:** **INSTANT DEATH.** Game over.
 
 
-
----
-
 #### 🏆 Winning
 
 * Reduce opponent to **0 HP**.
 * Opponent draws a **Death Card** without a **Shamrock**.
 
----
+
 
 ## ⚔️ Game Rules 🛡️
+
 
 ### 🎯 Goal of the Game
 
 **Be the last player standing!**
 Each player starts with **50 Health Points (HP)**. Use attack and defense cards strategically to reduce your opponent's HP to zero—or survive long enough for them to draw a fatal card.
 
----
 
 ### 🃏 The Decks
 
@@ -77,7 +71,6 @@ Each deck contains cards numbered **1–13**.
 * **13 (Purple Skull):** The **Death Card**.
 * **7 (Green Shamrock):** The **Lucky Card**.
 
----
 
 ### 💚 The Game Board Layout
 
@@ -88,11 +81,11 @@ Play takes place on a green casino-style board with specific zones:
 3. **Lucky Card Slot:** A specific slot to the right of each player’s hand to store drawn Shamrock cards.
 4. **Discard Piles:** Next to each deck for flushed or spent cards.
 
----
 
 ### 🔄 Turn Sequence
 
 Players take turns. On your turn, you must choose **ONE** of the following actions:
+
 
 #### Action A: Draw a Card
 
@@ -117,7 +110,6 @@ If you draw the **Death Card (13)**, the following occurs immediately:
 * **Instant Death.** You lose the game immediately.
 
 
-
 #### Action B: Attack Opponent
 
 You may choose to attack if you have at least one attack card.
@@ -133,14 +125,12 @@ $$Damage = \sum(\text{Your Attack Card Values}) - \sum(\text{Opponent's Defense 
 * **Result:**  Damage.
 
 
-
 **2. Resolution:**
 
 * **Apply Damage:** The Opponent loses HP equal to the final damage value.
 * **Negative Damage:** If Defense > Attack, damage dealt is **0** (no healing occurs).
 * **Flush Cards:** After the attack is resolved, **ALL** attack cards used by the player and **ALL** defense cards held by the opponent are discarded.
 
----
 
 ### 🍀 Special Cards Legend
 
@@ -149,7 +139,6 @@ $$Damage = \sum(\text{Your Attack Card Values}) - \sum(\text{Opponent's Defense 
 | **7** | **Lucky Card** | ☘️ | **Protection:** When drawn, place in the "Lucky Card Slot." It sits passively until needed to negate a Death Card. |
 | **13** | **Death Card** | ☠️ | **Instant Kill:** If drawn without a Lucky Card in reserve, the player dies instantly and the game ends. |
 
----
 
 ### ♻️ Refreshing Decks
 
@@ -158,7 +147,6 @@ If a draw deck runs out of cards:
 1. Shuffle the corresponding discard pile.
 2. Place them face down to form the new draw deck.
 
----
 
 ## 🏆 Winning the Game
 
@@ -168,5 +156,3 @@ The game ends when one of the following conditions is met:
 2. **Sudden Death:** A player draws a **Death Card** and has no **Lucky Card** to protect them.
 
 The surviving player is the winner!
-
----
