@@ -279,93 +279,93 @@ Remove / Rework
 ## 🃏 Card ideas
 
 ### ⚔️ New Attack‑Focused Cards
-1. Berserker Blade (Value 6–9)
+1. **Berserker Blade** (Value 6–9)
 Effect: If your total Attack is lower than the opponent’s Defense, this card doubles its value.
 Purpose: Helps comeback plays and reduces “wasted” attacks.
 
-2. Piercing Strike (Value 4–7)
+2. **Piercing Strike** (Value 4–7)
 Effect: Ignores half of the opponent’s Defense value.
 Purpose: Introduces armor‑breaking without adding new math layers.
 
-3. Chain Slash (Value 3–5)
+3. **Chain Slash** (Value 3–5)
 Effect: For every other Attack card played this turn, add +1.
 Purpose: Rewards aggressive, multi‑card attacks.
 
 ### 🛡️ New Defense‑Focused Cards
-4. Iron Wall (Value 6–10)
+4. **Iron Wall** (Value 6–10)
 Effect: After blocking, retain half its value for your next turn.
 Purpose: Creates a “carryover shield” that encourages defensive builds.
 
-5. Counter Shield (Value 5–8)
+5. **Counter Shield** (Value 5–8)
 Effect: If it fully blocks the attack (0 damage), deal 2 damage back.
 Purpose: Adds a light counter‑attack mechanic without complicating combat.
 
-6. Mist Barrier (Value 4–6)
+6. **Mist Barrier** (Value 4–6)
 Effect: Opponent’s next Attack card drawn has –2 value.
 Purpose: Soft debuff that affects future turns, not just the current one.
 
 🍀 New Luck / Special Cards
-7. Double Shamrock (Value 7)
+7. **Double Shamrock** (Value 7)
 Effect:
 - Counts as a Lucky Card
 - AND gives +3 HP when drawn
 Purpose: A rare, exciting pull that feels rewarding.
 
-8. Fate Twist (Value 0)
+8. **Fate Twist** (Value 0)
 Effect:
 Swap the top card of the Attack and Defense decks.
 Purpose: Light deck manipulation without revealing too much.
 
-9. Fortune Surge (Value 0)
+9. **Fortune Surge** (Value 0)
 Effect:
 Draw 2 cards. Then discard 1 card of your choice.
 Purpose: Controlled cycling to fix bad hands.
 
 ### ☠️ Risk / Gamble Cards
-10. Blood Pact (Value 10)
+10. **Blood Pact** (Value 10)
 Effect:
 Add +10 to your next attack, but lose 5 HP immediately.
 Purpose: High‑risk, high‑reward play for aggressive players.
 
-11. Cursed Steel (Value 8)
+11. **Cursed Steel** (Value 8)
 Effect:
 If used in an attack that deals 0 damage, take 3 damage yourself.
 Purpose: Encourages smart timing and discourages blind attacks.
 
-12. Doom Token (Value 0)
+12. **Doom Token** (Value 0)
 Effect:
 Place on opponent. Their next Lucky Card is disabled.
 Purpose: A soft counter to the Lucky 7 mechanic without being unfair.
 
 🔮 Utility / Control Cards
-13. Scrying Orb (Value 0)
+13. **Scrying Orb** (Value 0)
 Effect:
 Look at the top 3 cards of any deck. Put them back in any order.
 Purpose: Adds tactical foresight and planning.
 
-14. Swap Hands (Value 0)
+14. **Swap Hands** (Value 0)
 Effect:
 Both players choose 1 card from their hand and swap them.
 Purpose: Creates mind‑games and interaction.
 
-15. Purge (Value 0)
+15. **Purge** (Value 0)
 Effect:
 Discard any 1 card from your hand. Draw 1 new card.
 Purpose: Simple hand‑fixing tool that reduces frustration.
 
 ### 🧩 Status‑Effect Cards (Optional Layer)
 If you want to introduce light status effects without turning the game into a full RPG:
-16. Bleeding Edge (Value 5)
+16. **Bleeding Edge** (Value 5)
 Effect:
 Opponent loses 2 HP for the next 2 turns.
 Purpose: Adds pressure over time.
 
-17. Guardian Rune (Value 4)
+17. **Guardian Rune** (Value 4)
 Effect:
 Your next Defense card gets +3 value.
 Purpose: Buffs without clutter.
 
-18. Hex of Weakness (Value 0)
+18. **Hex of Weakness** (Value 0)
 Effect:
 Opponent’s next Attack has –3 value.
 Purpose: A clean, easy debuff.
