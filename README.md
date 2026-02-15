@@ -1,13 +1,21 @@
-# Triskai-deka-phobia-HD
-HD remake of my js13k2024 Triskai-deka-phobia entry.
+# Grimhand Tactics
 
-### ⚔️ Player Quick Reference 🛡️
+1. [Player Quick Reference](#️-player-quick-reference-️)
+2. [Game Rules](#️-game-rules-️)
+
+## *Triskai-deka-phobia HD remake*.
+
+This game is a remake of my [js13k2024 Triskai-deka-phobia](https://github.com/romualdk/js13k-2024) entry.
+
+![mockup](./Design/mockup-mobile.png)
+
+## ⚔️ Player Quick Reference 🛡️
 
 **Objective:** Be the last player with HP (Start: 50 HP).
 
 ---
 
-#### 🔄 On Your Turn (Choose 1)
+### 🔄 On Your Turn (Choose 1)
 
 1. **Draw:** Take 1 card from the **Attack** or **Defense** deck.
 * *Max Hand:* 13 cards per hand. If you exceed 13, that hand is **flushed**.
@@ -17,7 +25,7 @@ HD remake of my js13k2024 Triskai-deka-phobia entry.
 
 ---
 
-#### 💥 Damage Calculation
+### 💥 Damage Calculation
 
 Damage is the **Sum of Values**, not the number of cards:
 
@@ -28,7 +36,7 @@ $$\text{Total Attack Value} - \text{Total Defense Value} = \text{HP Lost}$$
 
 ---
 
-#### 🃏 Special Cards
+### 🃏 Special Cards
 
 * **☘️ Lucky Card (7):** Stored in your Lucky Slot. It is your only protection against the Death Card.
 * **☠️ Death Card (13):**
@@ -46,16 +54,16 @@ $$\text{Total Attack Value} - \text{Total Defense Value} = \text{HP Lost}$$
 
 ---
 
-# ⚔️ Attack & Defend: Card Battle Rules 🛡️
+## ⚔️ Game Rules 🛡️
 
-## 🎯 Goal of the Game
+### 🎯 Goal of the Game
 
 **Be the last player standing!**
 Each player starts with **50 Health Points (HP)**. Use attack and defense cards strategically to reduce your opponent's HP to zero—or survive long enough for them to draw a fatal card.
 
 ---
 
-## 🃏 The Decks
+### 🃏 The Decks
 
 There are two separate decks of cards. Do not mix them.
 
@@ -71,7 +79,7 @@ Each deck contains cards numbered **1–13**.
 
 ---
 
-## 💚 The Game Board Layout
+### 💚 The Game Board Layout
 
 Play takes place on a green casino-style board with specific zones:
 
@@ -82,11 +90,11 @@ Play takes place on a green casino-style board with specific zones:
 
 ---
 
-## 🔄 Turn Sequence
+### 🔄 Turn Sequence
 
 Players take turns. On your turn, you must choose **ONE** of the following actions:
 
-### Action A: Draw a Card
+#### Action A: Draw a Card
 
 Draw one card from either the Attack Deck or Defense Deck.
 
@@ -110,7 +118,7 @@ If you draw the **Death Card (13)**, the following occurs immediately:
 
 
 
-### Action B: Attack Opponent
+#### Action B: Attack Opponent
 
 You may choose to attack if you have at least one attack card.
 
@@ -134,7 +142,7 @@ $$Damage = \sum(\text{Your Attack Card Values}) - \sum(\text{Opponent's Defense 
 
 ---
 
-## 🍀 Special Cards Legend
+### 🍀 Special Cards Legend
 
 | Card Value | Name | Icon | Effect |
 | --- | --- | --- | --- |
@@ -143,7 +151,7 @@ $$Damage = \sum(\text{Your Attack Card Values}) - \sum(\text{Opponent's Defense 
 
 ---
 
-## ♻️ Refreshing Decks
+### ♻️ Refreshing Decks
 
 If a draw deck runs out of cards:
 
