@@ -2,8 +2,8 @@
 
 ## 📑 Table of Contents
 
-1. [⚔️ Player Quick Reference ](#️-player-quick-reference-️)
-2. [📜 Game Rules](#️-game-rules-️)
+1. [⚔️ Player Quick Reference ](#️-player-quick-reference)
+2. [📜 Game Rules](#-game-rules)
 3. [🚀 Minimal MVP (Card-Focused)](MVP.md)
 4. [💡 Analysis & Design](ANALYSIS.md)
 
