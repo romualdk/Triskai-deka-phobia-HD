@@ -3,20 +3,20 @@
 A lean, modern MVP focused purely on **cards, clarity, and gameplay feel**.  
 No portraits, no meta systems, no progression — just the smallest feature set needed to make the game feel polished and strategic.
 
+https://github.com/romualdk/Triskai-deka-phobia-HD
 
-## 📑 Table of Contents (GitHub‑Optimized)
-- [👉💀 Grimhand Tactics](README.md)
-- [🚀 Minimal MVP (Card-Focused)](#-grimhand-tactics--minimal-mvp-card-focused)
-  - [🎯 MVP Goal](#-mvp-goal)
-  - [📱 Screen Layout (Portrait)](#-1-screen-layout-portrait)
-  - [🃏 MVP Card Types](#-2-mvp-card-types)
-  - [⚡ Core Feedback (High Impact, Low Cost)](#-3-core-feedback-high-impact-low-cost)
-  - [🔍 Clarity Features](#-4-clarity-features)
-  - [🔄 Turn Flow](#-5-turn-flow)
-  - [✨ Visual Polish (Minimal Effort)](#-6-visual-polish-minimal-effort)
-  - [⛔ Do NOT Build Yet](#-7-do-not-build-yet)
-  - [📋 MVP Feature Checklist](#-8-mvp-feature-checklist)
-  - [🏆 Why This MVP Works](#-9-why-this-mvp-works)
+## 📑 Table of Contents
+
+1. [🎯 MVP Goal](#-mvp-goal)
+2. [📱 Screen Layout (Portrait)](#-1-screen-layout-portrait)
+3. [🃏 MVP Card Types](#-2-mvp-card-types)
+4. [⚡ Core Feedback (High Impact, Low Cost)](#-3-core-feedback-high-impact-low-cost)
+5. [🔍 Clarity Features](#-4-clarity-features)
+6. [🔄 Turn Flow](#-5-turn-flow)
+7. [✨ Visual Polish (Minimal Effort)](#-6-visual-polish-minimal-effort)
+8. [⛔ Do NOT Build Yet](#-7-do-not-build-yet)
+9. [📋 MVP Feature Checklist](#-8-mvp-feature-checklist)
+10. [🏆 Why This MVP Works](#-9-why-this-mvp-works)
 
 
 ## 🎯 MVP Goal
@@ -34,7 +34,7 @@ Avoid for now:
 - Complex abilities
 
 
-## 📱 1. Screen Layout (Portrait)
+## 📱 Screen Layout (Portrait)
 
 ### **Enemy Zone (Top)**
 
@@ -79,7 +79,7 @@ Card states:
 - Auto-highlight when energy reaches 0
 
 
-## 🃏 2. MVP Card Types
+## 🃏 MVP Card Types
 
 Keep the system minimal:
 
@@ -104,7 +104,7 @@ Keep the system minimal:
 - Special abilities
 
 
-## ⚡ 3. Core Feedback (High Impact, Low Cost)
+## ⚡ Core Feedback (High Impact, Low Cost)
 
 ### Card Animation
 - Draw: slide from deck
@@ -126,7 +126,7 @@ Keep the system minimal:
 - Small sparkle when triggered
 
 
-## 🔍 4. Clarity Features
+## 🔍 Clarity Features
 
 ### **Damage Preview**
 When player selects a card:
@@ -146,7 +146,7 @@ When deck is low:
 
 (No Fate meter yet — keep MVP minimal.)
 
-## 🔄 5. Turn Flow
+## 🔄 Turn Flow
 
 ### Start Turn
 1. Energy refills
@@ -162,7 +162,7 @@ When deck is low:
 - Apply damage/block effects
 
 
-## ✨ 6. Visual Polish (Minimal Effort)
+## ✨ Visual Polish (Minimal Effort)
 
 ### Background
 - Dark gradient
@@ -175,7 +175,7 @@ When deck is low:
 This removes the “prototype” feel without heavy art requirements.
 
 
-## ⛔ 7. Do NOT Build Yet
+## ⛔ Do NOT Build Yet
 
 Wait until core gameplay feels good before adding:
 
@@ -190,7 +190,7 @@ Wait until core gameplay feels good before adding:
 - Complex abilities
 
 
-## 📋 8. MVP Feature Checklist
+## 📋 MVP Feature Checklist
 
 ### Gameplay
 - Energy system (2–3 per turn)
@@ -212,7 +212,7 @@ Wait until core gameplay feels good before adding:
 - No portraits
 
 
-## 🏆 9. Why This MVP Works
+## 🏆 Why This MVP Works
 
 This version delivers modern expectations:
 
